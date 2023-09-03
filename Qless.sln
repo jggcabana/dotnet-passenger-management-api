@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qless.WebAPI", "Qless.WebAPI\Qless.WebAPI.csproj", "{10DCF263-66F5-4EF5-9844-EC4491D6AA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qless.WebAPI", "Qless.WebAPI\Qless.WebAPI.csproj", "{10DCF263-66F5-4EF5-9844-EC4491D6AA05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qless.Services", "Qless.Services\Qless.Services.csproj", "{CD6E6233-E12D-4C5A-9444-C79380043430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qless.Repositories", "Qless.Repositories\Qless.Repositories.csproj", "{6AAF6CCD-89F3-4B2D-9B31-1E2F7AE1AA8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qless.UnitTests", "Qless.UnitTests\Qless.UnitTests.csproj", "{75B82224-74BD-429A-B867-394AB6A9F0BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{10DCF263-66F5-4EF5-9844-EC4491D6AA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10DCF263-66F5-4EF5-9844-EC4491D6AA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10DCF263-66F5-4EF5-9844-EC4491D6AA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6E6233-E12D-4C5A-9444-C79380043430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6E6233-E12D-4C5A-9444-C79380043430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6E6233-E12D-4C5A-9444-C79380043430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6E6233-E12D-4C5A-9444-C79380043430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAF6CCD-89F3-4B2D-9B31-1E2F7AE1AA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAF6CCD-89F3-4B2D-9B31-1E2F7AE1AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAF6CCD-89F3-4B2D-9B31-1E2F7AE1AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAF6CCD-89F3-4B2D-9B31-1E2F7AE1AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B82224-74BD-429A-B867-394AB6A9F0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B82224-74BD-429A-B867-394AB6A9F0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B82224-74BD-429A-B867-394AB6A9F0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B82224-74BD-429A-B867-394AB6A9F0BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
